@@ -12,3 +12,7 @@ https://www.kaggle.com/code/aniketg11/support-tickets-classification
 - How can Part of Speech (POS) Tagging be utilized to extract key information from the tickets, such as verbs, nouns, adjectives, and adverbs? How does the frequency of these components relate to ticket urgency?
 - How can Term Frequency-Inverse Document Frequency (TF-IDF) be used to identify the importance of the content in the tickets? Can we use the scores to predict the urgency of incoming support tickets?
 
+### 4. Content Description
+- 01_pos_tagging.ipynb: This notebook contains all the codes, visualizations, and outcomes to answer the first research question.
+- 02_tf_idf.ipynb: This notebook all the codes, visualizations, and outcomes to answer the second research question.
+- data_ticket.csv: The raw data used in this project.
