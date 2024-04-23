@@ -8,4 +8,7 @@ We now live in an era dominated by the internet, AI bots, and tech devices. Ther
 Kaggle provides an open-source dataset that contains details on more than 48,000 support tickets [13]. The original dataset was provided by a British software company called Endava. It contains information on support tickets from the firm's help desk, each with user messages and pre-assigned labels. These support tickets cover various issues, which include account problems, payment issues, technical issues, etc. Each ticket has detailed information about the title, body text, ticket type, category, sub-category, business service, urgency level, and the impact of the problem mentioned in the ticket.
 https://www.kaggle.com/code/aniketg11/support-tickets-classification
 
-### 3. Goals
+### 3. Research Questions
+- How can Part of Speech (POS) Tagging be utilized to extract key information from the tickets, such as verbs, nouns, adjectives, and adverbs? How does the frequency of these components relate to ticket urgency?
+- How can Term Frequency-Inverse Document Frequency (TF-IDF) be used to identify the importance of the content in the tickets? Can we use the scores to predict the urgency of incoming support tickets?
+
