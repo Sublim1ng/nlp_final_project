@@ -19,10 +19,12 @@ https://www.kaggle.com/code/aniketg11/support-tickets-classification
 
 ### 5. Conclusion
 In POS Tagging analysis, we can conclude that there is a significant difference in the usage of adjectives and nouns between high and low urgency groups. There is no evidence showing the same relationship for adverbs and verbs. Meanwhile, the low positive correlation coefficients of 0.1 for nouns and 0.06 for adjectives indicate that when the urgency levels of tickets increase, more nouns and adjectives tend to be used in the texts. In short, customers tend to use more descriptive words when submitting high-urgency tickets. <br>
-<img src="https://github.com/Sublim1ng/nlp_final_project/assets/111295538/855c8fcc-f2ef-40bd-9f59-192c1e71f9f6" width="600" height="400">
+<br>
+<img src="https://github.com/Sublim1ng/nlp_final_project/assets/111295538/855c8fcc-f2ef-40bd-9f59-192c1e71f9f6" width="800" height="600">
 
 
 In TF-IDF analysis, the ticket text term frequency reveals that a large number of words have low frequencies. the evaluation table didn't provide us with a high overall performance for different ordinal urgency levels (0, 1, 2, 3). The weighted accuracy is only 0.44, indicating that the model correctly predicts the urgency level for 44% of the tickets in the test set. It seems that the model performed slightly better in forecasting urgency level 3 but had poor outcomes for urgency level 0. This may be because of the lack of samples of tickets that are categorized as non-urgent requests. <br> 
+<br>
 <img width="467" alt="Screenshot 2024-04-22 at 10 50 18 PM" src="https://github.com/Sublim1ng/nlp_final_project/assets/111295538/3cc9bd9b-56fa-4371-80d8-ac46728bd796">
 
 <img width="553" alt="Screenshot 2024-04-22 at 10 50 25 PM" src="https://github.com/Sublim1ng/nlp_final_project/assets/111295538/18cf3e3b-3e6b-4e50-9d9a-66834fc74f6d">
